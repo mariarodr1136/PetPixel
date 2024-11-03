@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetPixel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>PetPixel</h1>
+        <div class="pet">
+            <img id="pet-image" src="pet.png" alt="Virtual Pet">
+            <p id="pet-status">Your pet is feeling happy!</p>
+        </div>
+        <div class="stats">
+            <p>Hunger: <span id="hunger">50</span></p>
+            <p>Happiness: <span id="happiness">50</span></p>
+            <p>Energy: <span id="energy">50</span></p>
+        </div>
+        <div class="actions">
+            <button onclick="feedPet()">Feed</button>
+            <button onclick="playWithPet()">Play</button>
+            <button onclick="putPetToSleep()">Sleep</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

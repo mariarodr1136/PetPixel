@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff;
+}
+
+.container {
+    width: 300px; /* Set a smaller width */
+    height: 650px; /* Set a smaller height */
+    text-align: center;
+    padding: 20px 40px; /* Adjust padding to fit the screen area of the smaller phone */
+    background-image: url('phone.png'); /* Use the phone image as the background */
+    background-size: cover; /* Make the image cover the entire container */
+    background-position: center; /* Center the image */
+    border-radius: 40px; /* Adds roundness to match the phone shape */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a slight shadow for depth */
+}
+
+
+h1 {
+    color: #333;
+    margin-top: 100px; /* Adds space above the title */
+}
+
+.pet img {
+    width: 150px;
+    margin: 40px 0 10px 0; /* Adds extra space at the top */
+}
+
+.stats {
+    margin: 15px 0;
+}
+
+
+.actions button {
+    margin-top: 30px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.actions button:nth-child(1) { background-color: #81b3dc; }
+.actions button:nth-child(2) { background-color: #81b3dc; }
+.actions button:nth-child(3) { background-color: #81b3dc; }
